@@ -27,6 +27,7 @@ COPY data/cat.zip /
 COPY data/pg.zip /
 COPY target/application/ ./
 
+
 COPY data/version data/app_version
 
 EXPOSE 4567 5244
